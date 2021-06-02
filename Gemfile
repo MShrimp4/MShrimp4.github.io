@@ -1,6 +1,5 @@
 source "https://rubygems.org"
 
-gem 'jekyll-admin', group: :jekyll_plugins
 gem "jekyll-theme-chirpy", "~> 4.0", ">= 4.0.1"
 
 group :jekyll_plugins do
