@@ -1,0 +1,61 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://dev.ikx.kr//</id>
+  <title>cdadr</title>
+  <subtitle></subtitle>
+  <updated>2021-06-02T13:31:06+09:00</updated>
+  <author>
+    <name>Yongha Hwang</name>
+    <uri>https://dev.ikx.kr//</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="https://dev.ikx.kr//feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="en-US"
+    href="https://dev.ikx.kr//"/>
+  <generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator>
+  <rights> © 2021 Yongha Hwang </rights>
+  <icon>/assets/img/favicons/favicon.ico</icon>
+  <logo>/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>GSOC 2021</title>
+    <link href="https://dev.ikx.kr//posts/GSOC-2021/" rel="alternate" type="text/html" title="GSOC 2021" />
+    <published>2021-06-02T11:27:00+09:00</published>
+  
+    <updated>2021-06-02T11:27:00+09:00</updated>
+  
+    <id>https://dev.ikx.kr//posts/GSOC-2021/</id>
+    <content src="https://dev.ikx.kr//posts/GSOC-2021/" />
+    <author>
+      <name>Yongha Hwang</name>
+    </author>
+
+  
+    
+    <category term="DEV" />
+    
+    <category term="GSOC_2021" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Good news! I have been accepted to GSoC 2021. (Well, actually, it had been 3 weeks since it was announced, so I “was” accepted, to be exact.) I am contributing to XFCE this summer, so I will expain who I am, and what I am going to do.
+
+First stop. So, who am I? My name is Yongha Hwang, and I am an Electronic Engineering sophomore. And that’s enough for personal information to do about contribut...
+    </summary>
+  
+
+  </entry>
+
+</feed>
+
+
