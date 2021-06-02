@@ -1,61 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://dev.ikx.kr/feed.xml" rel="self" type="application/atom+xml" /><link href="https://dev.ikx.kr/" rel="alternate" type="text/html" /><updated>2021-06-02T15:31:40+09:00</updated><id>https://dev.ikx.kr/feed.xml</id><title type="html">cdadr</title><subtitle>is an arguemnt of the procedure.</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="https://dev.ikx.kr/jekyll/update/2021/06/02/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2021-06-02T14:27:29+09:00</published><updated>2021-06-02T14:27:29+09:00</updated><id>https://dev.ikx.kr/jekyll/update/2021/06/02/welcome-to-jekyll</id><content type="html" xml:base="https://dev.ikx.kr/jekyll/update/2021/06/02/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
+&lt;p&gt;Jekyll requires blog post files to be named according to the following format:&lt;/p&gt;
 
-<feed xmlns="http://www.w3.org/2005/Atom">
-  <id>https://dev.ikx.kr//</id>
-  <title>cdadr</title>
-  <subtitle></subtitle>
-  <updated>2021-06-02T13:31:06+09:00</updated>
-  <author>
-    <name>Yongha Hwang</name>
-    <uri>https://dev.ikx.kr//</uri>
-  </author>
-  <link rel="self" type="application/atom+xml" href="https://dev.ikx.kr//feed.xml"/>
-  <link rel="alternate" type="text/html" hreflang="en-US"
-    href="https://dev.ikx.kr//"/>
-  <generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator>
-  <rights> © 2021 Yongha Hwang </rights>
-  <icon>/assets/img/favicons/favicon.ico</icon>
-  <logo>/assets/img/favicons/favicon-96x96.png</logo>
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR-MONTH-DAY-title.MARKUP&lt;/code&gt;&lt;/p&gt;
 
+&lt;p&gt;Where &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR&lt;/code&gt; is a four-digit number, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MONTH&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DAY&lt;/code&gt; are both two-digit numbers, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MARKUP&lt;/code&gt; is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
 
-  
-  <entry>
-    <title>GSOC 2021</title>
-    <link href="https://dev.ikx.kr//posts/GSOC-2021/" rel="alternate" type="text/html" title="GSOC 2021" />
-    <published>2021-06-02T11:27:00+09:00</published>
-  
-    <updated>2021-06-02T11:27:00+09:00</updated>
-  
-    <id>https://dev.ikx.kr//posts/GSOC-2021/</id>
-    <content src="https://dev.ikx.kr//posts/GSOC-2021/" />
-    <author>
-      <name>Yongha Hwang</name>
-    </author>
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
 
-  
-    
-    <category term="DEV" />
-    
-    <category term="GSOC_2021" />
-    
-  
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;Tom&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &apos;Hi, Tom&apos; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-  
-    <summary>
-      
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry><entry><title type="html">GSOC 2021</title><link href="https://dev.ikx.kr/dev/gsoc_2021/2021/06/02/GSOC-2021.html" rel="alternate" type="text/html" title="GSOC 2021" /><published>2021-06-02T11:27:00+09:00</published><updated>2021-06-02T11:27:00+09:00</updated><id>https://dev.ikx.kr/dev/gsoc_2021/2021/06/02/GSOC-2021</id><content type="html" xml:base="https://dev.ikx.kr/dev/gsoc_2021/2021/06/02/GSOC-2021.html">&lt;p&gt;Good news! I have been accepted to GSoC 2021. (Well, actually, it had been 3 weeks since it was announced, so I “was” accepted, to be exact.) I am contributing to XFCE this summer, so I will expain who I am, and what I am going to do.&lt;/p&gt;
 
+&lt;p&gt;First stop. So, who am I? My name is Yongha Hwang, and I am an Electronic Engineering sophomore. And that’s enough for personal information to do about contributing, so I’ll explain my experience with Linux, XFCE and C altogether.&lt;/p&gt;
 
+&lt;p&gt;I use Linux as my main OS. For developemnt, for surfing web, for entertainment like gaming, and everything else that happens after pressing power button. Although I use it as a main OS, I reinstall linux every 3~6 months. Since I don’t install the same thing everytime, I have used Ubuntu, Xubuntu, Linux Mint (both Cinnamon and MATE), Manjaro, Arch, Gentoo, and et cetra. I have even used Linux from Scratch (with LXQt) as a main OS.&lt;/p&gt;
 
+&lt;p&gt;My first experience with XFCE was Xubuntu in 2011. My first linux distribution was Ubuntu, as you have guessed. At that time Ubuntu was packed with Unity DE. It looked very futuristic to me since the only UI experience was with Windows XP and 98. But it did have one big problem to me: it was resource-heavy. The computer I was using at that time was quite slow and Internet Explorer took a whopping 12 seconds to show up. So I had to look for a lighter alternative and Xubuntu was a natural choice. Since then I liked how light DEs looks like, so I use light DEs most of the time not because of my low-end PC, but because I like the visual of “nothing fancy but looks fine enough.”&lt;/p&gt;
 
+&lt;p&gt;I started programming in C about the time I started using Linux. I have not much to tell about C, though. What I do have to show is &lt;a href=&quot;https://github.com/MShrimp4/SICP_Problems/tree/master/5.51&quot;&gt;a Scheme interpreter&lt;/a&gt;, when I was studying SICP (for fun, and I think it’s worth the time.)&lt;/p&gt;
 
-      Good news! I have been accepted to GSoC 2021. (Well, actually, it had been 3 weeks since it was announced, so I “was” accepted, to be exact.) I am contributing to XFCE this summer, so I will expain who I am, and what I am going to do.
+&lt;p&gt;So, what do I work on for XFCE? I have set two big goals for this summer.&lt;/p&gt;
 
-First stop. So, who am I? My name is Yongha Hwang, and I am an Electronic Engineering sophomore. And that’s enough for personal information to do about contribut...
-    </summary>
-  
+&lt;p&gt;&lt;strong&gt;Fix buggy launch behavior&lt;/strong&gt;&lt;/p&gt;
 
-  </entry>
+&lt;p&gt;Some people experience a bug that thunar tries to execute ordinary files like subtitles, and even directories. That happens when these files have execution bit (+x) enabled. I will try to fix this problem by checking MIME type before executing.&lt;/p&gt;
 
-</feed>
+&lt;p&gt;Another problem with launch behavior is that someone can shove in executable files with execution bit on by packing inside tar archives. This may not be a problem with normal scripts, but .desktop files can change its icon or file name to resemble normal document files. Files (formerly known as Nautilus,the file manager of GNOME) had the same problem before and they introduced safety flags using GVFS metadata. We can use this because we use GVFS, too.&lt;/p&gt;
 
+&lt;p&gt;&lt;strong&gt;Improvements to file transmission&lt;/strong&gt;&lt;/p&gt;
 
+&lt;p&gt;Have you ever experienced this: You were copying a lot of files, and somehow it got interrupted. You copy same files again. You skipped everything that was “already copied” to save time, only to find out a year later that the most important file was interrupted during the copy and you are left with the first 10KB of that file. To prevent this issue, you can copy every files again just to be sure, but that is a huge waste of time. If there is an option that leaves partailly copied files as *.partial and it gets automatically removed, wouldn’t it be a better solution? If I have spare time I also would implement pedantic feature like “verify checksum of every files copied” to use on network drives.&lt;/p&gt;
+
+&lt;p&gt;Speaking of network files, Thunar loses metadata when copying files from GVFS. GVFS is a wrapper (naively speaking) for exotic locations like network file shares, smartphones, trash bin, and et cetra. Also, files copied from GDrive are labeled with unreadable names rather than the actual file name. I would also fix this problem.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Well, that’s what as far as I can tell! Congratulations to fellow XFCE GSoC contributors Vishal Sharma and Kefalidis Sergios, and major thanks to my mentor Alexander Schwinn.&lt;/p&gt;
+
+&lt;p&gt;Check out my Thunar contributions here:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://gitlab.xfce.org/MShrimp4&quot;&gt;XFCE Gitlab profile&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://gitlab.xfce.org/xfce/thunar/-/merge_requests?scope=all&amp;amp;utf8=%E2%9C%93&amp;amp;state=merged&amp;amp;author_username=MShrimp4&quot;&gt;Thunar merge requests&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://gitlab.xfce.org/xfce/exo/-/merge_requests?scope=all&amp;amp;utf8=%E2%9C%93&amp;amp;state=all&amp;amp;author_username=MShrimp4&quot;&gt;Exo merge reuqests&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="DEV" /><category term="GSOC_2021" /><category term="gsoc_2021" /><category term="xfce" /><category term="introduction" /><summary type="html">Good news! I have been accepted to GSoC 2021. (Well, actually, it had been 3 weeks since it was announced, so I “was” accepted, to be exact.) I am contributing to XFCE this summer, so I will expain who I am, and what I am going to do.</summary></entry></feed>
