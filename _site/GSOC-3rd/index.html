@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>(A bit late) weekly update – cdadr – is an argument of the procedure</title>
+    <!-- Begin Jekyll SEO tag v2.7.1 -->
+<meta name="generator" content="Jekyll v4.2.0" />
+<meta property="og:title" content="(A bit late) weekly update" />
+<meta name="author" content="Yongha Hwang" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Well, it’s a bit late for weekly update that it should be rather called decadly update. But well, better than nothing!" />
+<meta property="og:description" content="Well, it’s a bit late for weekly update that it should be rather called decadly update. But well, better than nothing!" />
+<link rel="canonical" href="http://dev.ikx.kr/GSOC-3rd/" />
+<meta property="og:url" content="http://dev.ikx.kr/GSOC-3rd/" />
+<meta property="og:site_name" content="cdadr" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-06-21T22:30:00+09:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="(A bit late) weekly update" />
+<script type="application/ld+json">
+{"author":{"@type":"Person","name":"Yongha Hwang"},"headline":"(A bit late) weekly update","dateModified":"2021-06-21T22:30:00+09:00","datePublished":"2021-06-21T22:30:00+09:00","description":"Well, it’s a bit late for weekly update that it should be rather called decadly update. But well, better than nothing!","url":"http://dev.ikx.kr/GSOC-3rd/","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://dev.ikx.kr/GSOC-3rd/"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+
+<meta property="og:description" content="Well, it’s a bit late for weekly update that it should be rather called decadly update. But well, better than nothing!
+" />
+
+<meta name="author" content="cdadr" />
+
+
+<meta property="og:title" content="(A bit late) weekly update" />
+<meta property="twitter:title" content="(A bit late) weekly update" />
+
+
+
+<meta property="og:image" content="http://dev.ikx.krhttps://avatars.githubusercontent.com/u/37237692"/>
+<meta property="twitter:image" content="http://dev.ikx.krhttps://avatars.githubusercontent.com/u/37237692"/>
+
+
+
+    <link rel="stylesheet" type="text/css" href="/assets/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="cdadr - is an argument of the procedure" href="/feed.xml" />
+    <link rel="canonical" href="http://dev.ikx.kr/GSOC-3rd/" />
+
+    <meta name="theme-color" content="#000000">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+    
+
+  </head>
+
+  <body>
+    <div id="bar"></div>
+    <div class="wrapper-container">
+      <div class="wrapper-masthead">
+        <div class="container">
+          <header class="masthead clearfix">
+            <a href="/" class="site-avatar"><img src="https://avatars.githubusercontent.com/u/37237692" alt="" /></a>
+
+            <div class="site-info">
+              <h1 class="site-name"><a href="/">cdadr</a></h1>
+              <p class="site-description">is an argument of the procedure</p> 
+            </div>
+
+            <nav>
+              <a href="/">Home</a>
+              <a href="/getting-started">Getting Started</a>
+              <a href="/search">Search</a>
+              <a href="/about">About</a>
+              <a href="/archive">Archive</a>
+            </nav>
+          </header>
+        </div>
+      </div>
+
+      <div class="wrapper-main">
+        <div id="main" role="main" class="container">
+          <article class="post detailed">
+  <h1>(A bit late) weekly update</h1>
+
+  <div>
+    <p class="author_title">Yongha Hwang  ·  June 21, 2021</p>
+    
+    <div class="post-tags">
+      
+      
+        <a href="/categories/#DEV">DEV</a>
+        &nbsp;
+      
+        <a href="/categories/#GSOC_2021">GSOC_2021</a>
+        
+      
+    </div>
+  </div>
+    
+  <div class="entry">
+    <p>Well, it’s a bit late for weekly update that it should be rather called decadly update. But well, better than nothing!</p>
+
+<h2 id="wip-safety-flag">WIP: Safety flag</h2>
+
+<p>Related:</p>
+<ul>
+  <li>Backend: <a href="https://gitlab.xfce.org/xfce/libxfce4util/-/merge_requests/16">libxfce4util !16</a></li>
+  <li>UI: <a href="https://gitlab.xfce.org/xfce/thunar/-/merge_requests/121">Thunar !121</a></li>
+  <li>Additional discussions: <a href="https://gitlab.xfce.org/xfce/thunar/-/issues/156">Thunar #156</a></li>
+</ul>
+
+<p>I’m still working on safety-flag, which is mentioned in <a href="/GSOC-2021/">my introduction post</a> and <a href="/2nd-Saturday/">2nd saturday post</a>. Not much have changed, but now an interface for safety flag is going to be merged into <code class="language-plaintext highlighter-rouge">libxfce4util</code>. Also, this flag will only be used for .desktop files.</p>
+
+<p>Also, the UI part of this project also got its MR page <a href="https://gitlab.xfce.org/xfce/thunar/-/merge_requests/121">(Thunar !121)</a>. Several discussion later <a href="https://gitlab.xfce.org/xfce/thunar/-/issues/156#note_33081">(startig from here)</a>, we decided to put checkbox for safety flag on Property-&gt;Launcher. Because flicking trusted flag on should also trigger executable flag on, it would be preferrable to show it visually. Thus toggle button for executable flag would also be on Launcher tab. So this would be how it will look like:</p>
+
+<p><img src="https://gitlab.xfce.org/xfce/thunar/uploads/e568bd5b36749ada6bf96829106c79bb/image.png" alt="image_for_new_UI" /></p>
+
+<h2 id="additional-update">Additional update</h2>
+
+<p>Related: <a href="https://gitlab.xfce.org/xfce/libxfce4ui/-/merge_requests/42">libxfce4ui !42</a> (42 is a nice number!)</p>
+
+<p>While I was working on safety flag, I got distracted by the boilerplates used on several XFCE projects, which was a direct copy of <code class="language-plaintext highlighter-rouge">thunar_gtk_label_set_a11y_relation()</code>. To use this function accros XFCE projects, I ported this to <code class="language-plaintext highlighter-rouge">libxfce4ui</code> as <a href="https://gitlab.xfce.org/xfce/libxfce4ui/-/merge_requests/42"><code class="language-plaintext highlighter-rouge">xfce_gtk_label_set_a11y_relation()</code></a>. Doesn’t it feel good when duplicate codes are replaced with proper functions?</p>
+
+  </div>
+
+  <div>
+    <p><span class="share-box">Share:</span> <a href="http://twitter.com/share?text=(A bit late) weekly update&url=http://dev.ikx.kr/GSOC-3rd/" target="_blank">Twitter</a>, <a href="https://www.facebook.com/sharer.php?u=http://dev.ikx.kr/GSOC-3rd/" target="_blank">Facebook</a></p>
+  </div>
+
+  <!--<div class="date">
+    Written on June 21, 2021
+  </div>-->
+
+  
+</article>
+
+        </div>
+      </div>
+
+      <div class="wrapper-footer">
+        <div class="container">
+          <footer class="footer">
+            
+<a href="mailto:mshrimp@sogang.ac.kr"><i class="svg-icon email"></i></a>
+
+
+<a href="https://github.com/MShrimp4"><i class="svg-icon github"></i></a>
+
+
+
+<a href="/feed.xml"><i class="svg-icon rss"></i></a>
+<a href="https://www.twitter.com/MXfce4"><i class="svg-icon twitter"></i></a>
+
+
+
+
+
+          </footer>
+        </div>
+      </div>
+    </div>
+
+    
+
+  </body>
+</html>

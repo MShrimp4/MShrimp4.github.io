@@ -2,6 +2,14 @@
   
     {
 
+      "title"    : "(A bit late) weekly update",
+      "url"      : "/GSOC-3rd/",
+      "category" : "DEV, GSOC_2021",
+      "date"     : "June 21, 2021"
+    } ,
+  
+    {
+
       "title"    : "Weekly update - transfer queueing, execution safety flag, and MTP",
       "url"      : "/2nd-Saturday/",
       "category" : "DEV, GSOC_2021",
